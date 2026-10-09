@@ -12,6 +12,17 @@ a[aria-label="View source on GitHub"] {
   display: none !important;
 }
 
+.dark-mode {
+  --bg-color: #111;
+  --bg-color-0: #1c1c1c;
+  --bg-color-1: #171717;
+}
+
+.light-mode .notion-simple-table,
+.light-mode .notion-simple-table td {
+  border-color: rgba(55, 53, 47, 0.28);
+}
+
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
