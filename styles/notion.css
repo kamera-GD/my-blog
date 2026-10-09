@@ -7,6 +7,11 @@
  * places to add some flare.
  */
 
+.github-corner,
+a[aria-label="View source on GitHub"] {
+  display: none !important;
+}
+
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
@@ -14,10 +19,6 @@
 
 .notion-frame {
   padding: 0;
-}
-
-.github-corner {
-  display: none !important;
 }
 
 .notion-page {
